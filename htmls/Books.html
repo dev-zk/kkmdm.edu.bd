@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Books List</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .book-button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-semibold mb-4">Class Books List</h1>
+
+        <!-- Class 1 -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4 text-purple-600">Class 1</h2>
+            <table class="table-auto border-collapse border border-gray-400">
+                <thead>
+                    <tr>
+                        <th class="border border-gray-400 px-4 py-2">Book Name</th>
+                        <th class="border border-gray-400 px-4 py-2">Download</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-400 px-4 py-2">The Adventure Begins</td>
+                        <td class="border border-gray-400 px-4 py-2"><button class="book-button">Download</button></td>
+                    </tr>
+                    <!-- Repeat for other books -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Class 2 -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-4 text-blue-600">Class 2</h2>
+            <table class="table-auto border-collapse border border-gray-400">
+                <thead>
+                    <tr>
+                        <th class="border border-gray-400 px-4 py-2">Book Name</th>
+                        <th class="border border-gray-400 px-4 py-2">Download</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border border-gray-400 px-4 py-2">The Enchanted Garden</td>
+                        <td class="border border-gray-400 px-4 py-2"><button class="book-button">Download</button></td>
+                    </tr>
+                    <!-- Repeat for other books -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Repeat for Class 3 to Class 10 with respective books -->
+
+    </div>
+</body>
+</html>
